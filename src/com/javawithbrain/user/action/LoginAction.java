@@ -37,7 +37,7 @@ public class LoginAction extends ActionSupport {
  public void validate() {  
   if(userName.trim().equalsIgnoreCase("") || password.trim().equalsIgnoreCase(""))  
   {  
-   addActionError("Username and Password cann't be blanked");  
+   addActionError("Username and Password cann't be blanked!");  
   }  
   else  
   {  
