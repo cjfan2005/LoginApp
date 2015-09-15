@@ -19,9 +19,10 @@ public class TestUser extends ActionSupport {
 	 }
 	 
 	 public String testuser(){
+		 
 		 ServletActionContext.getRequest().getSession().getAttribute("loggedInUser");  
 		 String aa = (String) ServletActionContext.getRequest().getSession().getAttribute("loggedInUser");  
-		 System.out.println("test for get UESR =" +aa);
+		 System.out.println("test for get UESR  =" +aa);
 		 return "success";
 	 }
 	  
